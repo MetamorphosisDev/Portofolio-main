@@ -1,0 +1,30 @@
+const items = document.querySelectorAll(".carousel-item");
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
+
+let index = 0;
+
+function updateCarousel() {
+  items.forEach((item, i) => {
+    if(i === index){
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  });
+}
+
+// Tombol next
+next.addEventListener("click", () => {
+  if(index < items.length - 1) index++;
+  updateCarousel();
+});
+
+// Tombol prev
+prev.addEventListener("click", () => {
+  if(index > 0) index--;
+  updateCarousel();
+});
+
+// Set default active
+updateCarousel();

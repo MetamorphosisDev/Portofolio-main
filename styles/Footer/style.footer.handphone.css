@@ -1,0 +1,69 @@
+@media (max-width: 767px) {
+  .footer-left img {
+    display: block;
+    max-width: 80px;
+    height: auto;
+  }
+  .tentangfooter {
+    font-size: 9px;
+  }
+  .textcontact {
+    font-size: 28px;
+    margin: 30px 0px 16px 0px;
+  }
+  .footer-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footergroup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .submitdown {
+    display: flex;
+    gap: 10px;
+  }
+  .group-media-sosial {
+    display: flex;
+    margin-top: -20px;
+    gap: 5px;
+    height: 300px;
+  }
+  .footer-right input {
+    width: 250px;
+    margin: 5px auto;
+  }
+  .footer-right textarea {
+    width: 500px;
+    resize: none;
+  }
+  .footer-left {
+    align-items: center;
+    justify-content: center;
+  }
+  .name-ig h4,
+  .name-behance h4,
+  .name-github h4 {
+    font-size: 12px;
+  }
+  .icon-behance img,
+  .icon-ig img,
+  .icon-github img {
+    max-width: 35px;
+    height: auto;
+  }
+
+  .border-media-sosial-ig,
+  .border-media-sosial-github,
+  .border-media-sosial-behance {
+    transform: scale(0.85);
+  }
+  .border-media-sosial-ig:hover,
+  .border-media-sosial-github:hover,
+  .border-media-sosial-behance:hover {
+    transform: scale(0.9);
+  }
+}

@@ -1,0 +1,87 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .skill-photo-top {
+    gap: 50px; 
+  }
+
+  .skill-photo-top-left {
+    line-height: 1;
+  }
+
+  .skill-photo-top-left p {
+    -webkit-text-stroke: 1px white;
+    transform: translate(-50%, -55%);
+    font-size: 40px; 
+  }
+
+  .skill-photo-top-left h2 {
+    font-size: 28px; 
+  }
+
+  .skill-photo-top-left-about {
+    font-size: 11px; 
+    padding: 0px 20px;
+  }
+
+
+  .skill-photo-top-right {
+    width: 280px; 
+    padding: 12px;
+    gap: 15px;
+  }
+
+  .skill-photo-top-right img {
+    max-width: 30%;
+  }
+
+  .skill-photo-top-right p {
+    font-size: 16px; 
+  }
+
+
+  .kofdun-galeri {
+    height: 7rem; 
+  }
+
+  .kofdun-galeri > img {
+    max-height: 7rem; 
+  }
+
+  /* Portrait Gallery */
+  .couresel-potrait {
+    height: 280px; /* Dari 320px */
+    padding: 8px;
+  }
+
+  .image-cont {
+    width: 85px; /* Dari 100px */
+  }
+
+  .image-cont:hover {
+    width: 190px; /* Dari 220px */
+  }
+
+  /* Text Group */
+  .image-potrait-text-group {
+    padding: 15px 0;
+    font-size: 16px;
+  }
+
+  .image-potrait-text span {
+    font-size: 30px; /* Dari 35px */
+  }
+
+  .image-potrait-about p {
+    font-size: 30px; /* Dari 35px */
+  }
+
+  /* Bottom Text */
+  .photo-bottom span {
+    font-size: 22px; /* Dari 25px */
+  }
+
+  .photo-bottom h2 {
+    font-size: 22px; /* Dari 25px */
+    letter-spacing: 6px;
+  }
+}

@@ -1,0 +1,133 @@
+:root {
+  --warnabackgrorund-teks: #f5f5f5;
+  --warnafonthitam: #282828;
+  --warnafontbiru: #007bff;
+  --warnanavbar: #ffffff;
+  --warnafontbirutua: #000dff;
+}
+
+.main_2 {
+  margin: 70px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-logo-of-main2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logoofmain2 {
+  display: flex;
+  margin: 0px 100px 0px 0px;
+}
+
+.rectangleabout {
+  background-color: var(--warnafontbirutua);
+  color: var(--warnafontbiru);
+  width: 30px;
+  font-size: 2px;
+  margin: 11px 10px 9px 0px;
+}
+
+.aboutme-pixel {
+  display: flex;
+  align-items: center;
+}
+
+.texttopmain2 {
+  padding-top: 3px;
+  font-size: 10px;
+  opacity: 70%;
+}
+
+.grouppicture {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.grouppicture img {
+  margin: 0px 70px 0px 0px;
+  width: 300px;
+  height: max-content;
+}
+
+.aboutme-graphicanddeveloper h3 {
+  font-size: 22px;
+  margin: 0px 0px 10px 0px;
+  color: var(--warnafontbirutua);
+}
+
+.aboutme-graphicanddeveloper br {
+  margin-top: 12px;
+}
+
+.aboutme-graphicanddeveloper img {
+  width: 100px;
+  height: 100px;
+}
+
+.aboutme-graphicanddeveloper {
+  border-radius: 15px;
+  padding: 25px;
+  font-size: 20px;
+  border: 2px solid var(--warnafonthitam);
+}
+
+.pixel-1 img {
+  width: 160px;
+  height: auto;
+}
+
+.aboutme-pixel p {
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.educationaboutsub {
+  display: flex;
+  padding: 15px;
+  margin: 13px 0px 0px 0px;
+  border-radius: 14px;
+  border: 2px solid black;
+}
+
+.educationtext {
+  display: flex;
+  gap: 10px;
+}
+
+.educationtext p {
+  background-color: var(--warnafontbirutua);
+  font-size: 10px;
+  color: var(--warnafontbirutua);
+}
+
+.educationhis {
+  display: flex;
+  padding: 7px;
+}
+
+.garisedu {
+  background-color: var(--warnafontbirutua);
+  font-size: 11px;
+  color: var(--warnafontbirutua);
+}
+
+.school-smp-sub h4,
+.school-smk-sub h4 {
+  font-size: 18px;
+  margin: 0px 0px 5px 0px;
+}
+
+.school-smp-sub p,
+.school-smk-sub p {
+  font-size: 15px;
+}
+
+.school-smp,
+.school-smk {
+  margin: 0px 10px 0px 10px;
+}

@@ -1,0 +1,329 @@
+/* ========================================================= */
+/* FOOTER */
+/* ========================================================= */
+:root {
+  --warnabackgrorund-teks: #f5f5f5;
+  --warnafonthitam: #282828;
+  --warnafontbiru: #007bff;
+  --warnanavbar: #ffffff;
+  --warnafontbirutua: #000dff;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 20px 50px;
+  max-width: 1200px;
+  position: relative;
+}
+
+.line-footer_top {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--warnafonthitam);
+  width: 100vw;
+  height: 1px;
+  margin: 10px 0 20px 0;
+  border: none;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-left img {
+  display: block;
+}
+
+.tentangfooter {
+  padding-left: 50px;
+  font-size: 11px;
+  color: var(--warnafonthitam);
+  line-height: 1.4;
+  max-width: 600px;
+}
+
+.footer-all {
+  display: flex;
+}
+
+/* ========================================================= */
+/* FOOTER FORM & SOCIAL MEDIA GROUP */
+/* ========================================================= */
+.footergroup {
+  display: flex;
+  width: 100%;
+}
+
+.footer-right {
+  transform: scale(0.9);
+  transform-origin: top left;
+  font-size: 0.9rem;
+}
+
+.textcontact {
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-right input {
+  display: block;
+  width: 90%;
+  all: unset;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 10px 15px;
+  text-align: left;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: rgb(226, 226, 226);
+  font-weight: bold;
+}
+
+.input-notes-footer {
+  width: 100%;
+}
+
+.footer-right textarea {
+  display: block;
+  width: 90%;
+  all: unset;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 15px 15px;
+  height: 70px;
+  width: 480px;
+  text-align: left;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: rgb(226, 226, 226);
+}
+
+.submitdown {
+  display: flex;
+  gap: 10px;
+}
+
+.send-btn,
+.send-btn2 {
+  display: block;
+  all: unset;
+  box-sizing: border-box;
+  padding: 3px 10px;
+  font-weight: bolder;
+  color: var(--warnafonthitam);
+  transition: all 0.3s ease;
+  border: 1px solid var(--warnafonthitam);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-btn:hover,
+.send-btn2:hover {
+  background-color: var(--warnafontbiru);
+  color: var(--warnabackgrorund-teks);
+  margin-left: 1px;
+  border: none;
+}
+
+/* ========================================================= */
+/* SOCIAL MEDIA CARDS */
+/* ========================================================= */
+.group-media-sosial {
+  display: flex;
+  gap: 0px;
+}
+
+/* Instagram Card */
+.border-media-sosial-ig {
+  margin: 30px 30px 10px 10px;
+  padding: 20px 10px;
+  height: 230px;
+  width: 180px;
+  border-radius: 25px;
+  border: 1px solid var(--warnafonthitam);
+}
+
+.icon-ig {
+  padding-bottom: 12px;
+  margin-left: 3px;
+}
+
+.icon-ig img {
+  display: block;
+}
+
+.name-ig h4 {
+  margin: 0 0 10px 0;
+}
+
+.follow-button-ig {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #9500ff;
+  padding: 3px;
+  border-radius: 5px;
+  align-items: center;
+  color: white;
+}
+
+.name-follow {
+  margin: 3px;
+}
+
+.name-follow h4,
+.num-ig h4 {
+  margin: 0;
+}
+
+.num-ig h4 {
+  font-size: 10px;
+  padding-right: 5px;
+}
+
+/* Behance Card */
+.border-media-sosial-behance {
+  margin: 30px 30px 10px 5px;
+  padding: 20px 10px;
+  height: 230px;
+  width: 180px;
+  border-radius: 25px;
+  background-color: #000dff;
+  color: var(--warnabackgrorund-teks);
+}
+
+.icon-behance {
+  margin: 7px 0 20px 2px;
+}
+
+.icon-behance img {
+  display: block;
+}
+
+.name-behance {
+  margin-bottom: 7px;
+}
+
+.name-behance h4 {
+  margin: 0;
+}
+
+.link-behance {
+  margin-top: 10px;
+}
+
+.link-behance h6 {
+  margin: 0;
+}
+
+.link-behance a {
+  color: var(--warnabackgrorund-teks);
+  font-size: 8px;
+  text-decoration: none;
+}
+
+/* GitHub Card */
+.border-media-sosial-github {
+  margin: 30px 30px 10px 5px;
+  padding: 20px 10px;
+  height: 230px;
+  width: 180px;
+  border-radius: 25px;
+  border: 1px solid var(--warnafonthitam);
+  background-color: var(--warnafonthitam);
+}
+
+.icon-github {
+  margin: 2px 0px 10px 0;
+}
+
+.icon-github img {
+  display: block;
+  padding: 3px;
+  border-radius: 8px;
+  background-color: var(--warnabackgrorund-teks);
+}
+
+.name-github {
+  color: var(--warnabackgrorund-teks);
+  margin-bottom: 10px;
+}
+
+.name-github h4 {
+  margin: 0;
+}
+
+.repo-github {
+  display: flex;
+  align-items: center;
+}
+
+.repo-name {
+  color: var(--warnabackgrorund-teks);
+  margin-right: 5px;
+}
+
+.repo-name h6,
+.repo-num h6 {
+  margin: 0;
+}
+
+.repo-num {
+  color: var(--warnafontbiru);
+}
+
+.link-github {
+  margin-top: 10px;
+}
+.footer-left img {
+  width: 100px;
+  height: 30px;
+}
+
+.icon-behance img,
+.icon-ig img,
+.icon-github img {
+  max-width: 40px;
+  height: auto;
+}
+
+.group-media-sosial a {
+  text-decoration: none;
+}
+
+.name-ig h4 {
+  color: var(--warnafonthitam);
+}
+
+.name-behance h4 {
+  color: var(--warnabackgrorund-teks);
+}
+
+.border-media-sosial-ig,
+.border-media-sosial-github,
+.border-media-sosial-behance {
+  transition: 0.2s ease-in-out;
+}
+
+.border-media-sosial-ig:hover,
+.border-media-sosial-github:hover,
+.border-media-sosial-behance:hover {
+  transform: scale(1.05);
+}

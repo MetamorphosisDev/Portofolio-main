@@ -1,0 +1,134 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .design-top {
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .design-project {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .design-proect-1,
+  .design-proect-2,
+  .design-proect-3 {
+    padding: 10px;
+    width: calc(33.333% - 10px);
+    margin-right: 0;
+  }
+  .carousel-item {
+    padding: 5px;
+  }
+
+  .carousel-item img {
+    max-width: 250px;
+    height: 300px;
+  }
+
+  .carousel-container {
+    max-width: 100%;
+  }
+
+  .prev,
+  .next {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .text-design-top {
+    font-size: 18px;
+  }
+
+  .projecttext-design p {
+    font-size: 10px;
+  }
+
+  .design-graphic-text {
+    font-size: 45px;
+    text-align: left;
+  }
+
+  .main-3-sub {
+    gap: 0px;
+  }
+  .gallerydes {
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+  }
+
+  .gallerydes p {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--warnafonthitam);
+    margin: 0;
+  }
+
+  .gallerydesabout p {
+    font-size: 11px;
+    text-align: left;
+  }
+
+  .skill-im-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .design-tools-1 img,
+  .design-tools-2 img {
+    max-width: 33%;
+  }
+
+  .design-tools-3 img {
+    max-width: 23%;
+  }
+
+  .box-tools-design {
+    align-items: center;
+  }
+  .box-tools-design p {
+    font-size: 17px;
+  }
+  .box-tools-design h4 {
+    font-size: 2px;
+    margin: 0px 0px 20px 0px;
+  }
+  .box-tools-design {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .design-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .box-tools-design p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .box-tools-design h4 {
+    font-size: 2px;
+    margin: 0px 0px 15px 0px;
+  }
+  .text-box-blue p {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .text-box-blue {
+    width: 148px;
+  }
+  #text-time-box-blue-sub {
+    font-size: 13px;
+  }
+  #text-time-box-blue-sub2 {
+    font-size: 14px;
+  }
+  .text-time-box-blue {
+    width: 100px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,36 @@
+1     | 0     | N
+True  | False | Null
+
+
+- | Navbar                          : 1
+- | - Html                          : 1
+- | - Css                           : 1
+- | - | Responsive                  : 1
+- | - Js                            : N
+
+- | Main-top                        : 1
+- | - Html                          : 1
+- | - Css                           : 1
+- | - | Responsive                  : 1
+- | - Js                            : N
+
+- | Main-2a                         : 1
+- | - Html                          : 1
+- | - Css                           : 1
+- | - | Responsive                  : 0
+- | - Js                            : N
+
+- | Main-2b                         : 1
+- | - Html                          : 1
+- | - Css                           : 1
+- | - | Responsive                  : 0
+- | - Js                            : N
+
+
+
+
+- | Responsive pc, tablet, hp
+
+- | animasi di css/js
+
+- | 

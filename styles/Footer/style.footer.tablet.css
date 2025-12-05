@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-left img {
+    display: block;
+    max-width: 80px;
+    height: auto;
+  }
+  .tentangfooter {
+    font-size: 9px;
+  }
+  .textcontact {
+    font-size: 28px;
+    margin: 30px 0px 16px 0px;
+  }
+  .footer-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footergroup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .submitdown {
+    display: flex;
+    gap: 10px;
+  }
+  .group-media-sosial {
+    display: flex;
+    margin-top: -20px;
+    gap: 25px;
+    height: 300px;
+  }
+  .footer-right input {
+    width: 300px;
+    margin: 5px auto;
+  }
+  .footer-right textarea {
+    width: 700px;
+    resize: none;
+  }
+  .footer-left {
+    align-items: center;
+    justify-content: center;
+  }
+}

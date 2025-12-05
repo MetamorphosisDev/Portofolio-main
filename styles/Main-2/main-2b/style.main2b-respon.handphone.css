@@ -1,0 +1,76 @@
+@media (max-width: 767px) {
+  .imagecreative img,
+  .imageprofessional img {
+    width: 50px;
+    height: auto;
+  }
+  .text-creative p,
+  .text-professional p {
+    font-size: 12px;
+  }
+
+  .main_2_top {
+    display: flex;
+    gap: 80px;
+  }
+  .creativelog,
+  .professionaltext {
+    border-radius: 60px;
+    padding: 10px 15px;
+  }
+
+  .creativelog-sub,
+  .professionaltextsub {
+    padding: 0px 5px;
+  }
+
+  .myskilltext h1 {
+    font-size: 55px;
+    color: var(--warnafontbirutua);
+  }
+  .myskilltext p {
+    font-size: 10px;
+  }
+
+  .technical-text h1 {
+    font-size: 45px;
+  }
+
+  .technical-textabout p {
+    font-size: 13px;
+  }
+  .skills-1 img,
+  .skills-2 img,
+  .skills3 img {
+    width: 40px;
+    height: auto;
+    border-radius: 1px;
+  }
+  .skills-bottom-right img {
+    width: 140px;
+    height: auto;
+  }
+  .skill-about-basic {
+    font-size: 9px;
+  }
+  .skills-1,
+  .skills-2,
+  .skills3 {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 30px;
+    gap: 40px;
+    border: 1px solid var(--warnafonthitam);
+    margin: 0px 0px 15px 0px;
+  }
+  .main_2_sub {
+    margin: 0px 15px;
+  }
+  .technical-text h1 {
+    font-size: 38px;
+  }
+  .technical-textabout {
+    width: 112px;
+  }
+}

@@ -1,0 +1,138 @@
+@media (max-width: 767px) {
+  /* Main Container */
+  .main-4 {
+    padding: 30px 10px;
+  }
+
+  .main-4-sub {
+    gap: 20px;
+  }
+  /* Skill Photo Top */
+  .skill-photo-top {
+    width: 100%;
+  }
+
+
+  .skill-photo-top-left {
+    line-height: 1;
+    width: 100%;
+  }
+
+  .skill-photo-top-left p {
+    -webkit-text-stroke: 1px white;
+    transform: translate(-200%, -55%);
+    font-size: 30px; /* Lebih kecil */
+  }
+
+  .skill-photo-top-left h2 {
+    font-size: 27px; /* Lebih kecil */
+  }
+
+  .skill-photo-top-left-about {
+    display: flex;
+    font-size: 9px;
+    padding: 0px 15px;
+    width: 200px;
+  }
+
+  /* Tools Box */
+  .skill-photo-top-right {
+    width: 100%; /* Full width biar ga kepotong */
+    max-width: 280px;
+    padding: 20px;
+
+  }
+
+  .skill-photo-top-right img {
+    max-width: 22%;
+  }
+
+  .skill-photo-top-right p {
+    font-size: 14px;
+  }
+
+  .line-skill-photo-top-right {
+    height: 60%;
+  }
+
+  /* Text Click Photo */
+  .text-click-photo p {
+    font-size: 13px;
+  }
+
+  /* Landscape Gallery */
+  .kofdun-galeri {
+    height: 5rem; /* Lebih kecil */
+    gap: 0.5rem;
+  }
+
+  .kofdun-galeri > img {
+    max-height: 6rem;
+  }
+
+  /* Portrait Gallery */
+  .couresel-potrait-group {
+    padding: 15px;
+  }
+
+  .couresel-potrait {
+    height: 220px; /* Lebih kecil */
+    padding: 8px;
+    gap: 0.3rem;
+  }
+
+  .image-cont {
+    width: 65px; /* Lebih kecil */
+  }
+
+  .image-cont:hover {
+    width: 150px; /* Lebih kecil */
+  }
+
+  /* Text Group */
+  .image-potrait-text-group {
+    padding: 12px 0;
+    font-size: 14px;
+    flex-wrap: wrap; /* Biar wrap kalau kepanjangan */
+  }
+
+  .image-potrait-text {
+    flex: 1;
+  }
+
+  .image-potrait-text span {
+    font-size: 24px;
+    padding: 0px 5px;
+  }
+
+  .image-potrait-text p {
+    font-size: 10px;
+  }
+
+  .image-potrait-about p {
+    font-size: 24px;
+  }
+
+  .image-potrait-about span {
+    font-size: 18px;
+  }
+
+  /* Bottom Text */
+  .photo-bottom {
+    padding: 8px;
+  }
+
+  .photo-bottom p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .photo-bottom span {
+    font-size: 18px;
+  }
+
+  .photo-bottom h2 {
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+}

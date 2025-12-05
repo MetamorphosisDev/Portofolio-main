@@ -1,0 +1,148 @@
+:root {
+  --warnabackgrorund-teks: #f5f5f5;
+  --warnafonthitam: #282828;
+  --warnafontbiru: #007bff;
+  --warnanavbar: #ffffff;
+  --warnafontbirutua: #000dff;
+}
+
+.main_2_top {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 150px;
+}
+
+.imagecreative img,
+.imageprofessional img {
+  width: 100px;
+  height: auto;
+}
+
+.creativelog,
+.professionaltext {
+  border-radius: 100px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.creativelog-sub,
+.professionaltextsub {
+  box-shadow: 1px 2px 3px rgb(92, 92, 92);
+  padding: 0px 20px;
+  border-radius: 100px;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.myskilltext {
+  text-align: center;
+  justify-content: center;
+}
+
+.text-creative p,
+.text-professional p {
+  margin: 0px 10px;
+}
+
+.myskilltext h1 {
+  font-size: 80px;
+  color: var(--warnafontbirutua);
+}
+
+/* ======================================== */
+.main_2_sub {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main_2_bottom-sub {
+  gap: 15px;
+  display: flex;
+  border: 1px solid var(--warnafonthitam);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+
+.technical-group {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 30px;
+}
+
+.technical-text h1 {
+  font-size: 50px;
+}
+
+.line-t {
+  font-size: 8px;
+  color: var(--warnafontbirutua);
+  background-color: var(--warnafontbirutua);
+}
+
+.skills-1,
+.skills-2,
+.skills3 {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 30px;
+  gap: 70px;
+  border: 1px solid var(--warnafonthitam);
+  margin: 0px 0px 15px 0px;
+}
+
+.skills-1 img,
+.skills-2 img,
+.skills3 img {
+  width: 60px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.skill-about-basic {
+  font-weight: 600;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid var(--warnafonthitam);
+}
+
+.skills-bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.skills-bottom-right img {
+  width: 160px;
+  height: auto;
+}
+
+.skills-bottom-right {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border: 1px solid var(--warnafonthitam);
+  border-radius: 20px;
+  padding: 20px;
+  gap: 30px;
+}
+
+.creativetext div {
+  font-weight: bolder;
+}
+
+.main_2b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+

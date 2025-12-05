@@ -1,0 +1,29 @@
+:root {
+  --warnabackgrorund-teks: #f5f5f5;
+  --warnafonthitam: #282828;
+  --warnafontbiru: #007bff;
+  --warnanavbar: #ffffff;
+  --warnafontbirutua: #000dff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .rectanglebotsub {
+    font-size: 14px;
+  }
+
+  .bottom1 {
+    margin-left: 40px;
+  }
+
+  .bottom4 {
+    margin-right: 40px;
+  }
+
+  .rectanglebotsub {
+    height: 50px;
+  }
+
+  .rectanglebotsub div {
+    margin-bottom: 11px;
+  }
+}

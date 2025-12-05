@@ -1,0 +1,22 @@
+              <div class="kofdun-galeri">
+                <img
+                  src="images/Project/photovideo-/landscape/photo14.jpg"
+                  alt="photo1"
+                />
+                <img
+                  src="images/Project/photovideo-/landscape/photo2.jpg"
+                  alt="photo2"
+                />
+                <img
+                  src="images/Project/photovideo-/landscape/photo7.jpg"
+                  alt="photo3"
+                />
+                <img
+                  src="images/Project/photovideo-/landscape/photo8.jpg"
+                  alt="photo4"
+                />
+                <img
+                  src="images/Project/photovideo-/landscape/photo5.jpg"
+                  alt="photo4"
+                />
+              </div>

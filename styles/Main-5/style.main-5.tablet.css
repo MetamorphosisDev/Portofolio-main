@@ -1,0 +1,31 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-coding-project h2 {
+    font-size: 60px;
+  }
+  .text-coding-project h4 {
+    font-size: calc(60px / 1.6);
+  }
+  .text-coding-about {
+    padding: 10px 0px;
+    font-size: 12px;
+  }
+  .text-all-coding h2 {
+    font-size: 20px;
+  }
+  .text-all-coding {
+    gap: 11px;
+  }
+  .about-program p {
+    font-size: 13px;
+    margin-bottom: -5px;
+  }
+  .coding-top {
+    gap: 150px;
+  }
+  .info-language span {
+    font-size: 9px;
+  }
+  .button-repo-code a {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,211 @@
+@media (max-width: 767px) {
+  /* Main Container */
+  .main-3 {
+    padding: 30px 15px;
+  }
+
+  .main-3-sub {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Pindahkan Skill Design Right ke Atas */
+  .skill-design-left {
+    order: 2;
+  }
+
+  .skill-design-right {
+    order: 1;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  /* Design Top (Reels IG) */
+  .design-top {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .text-design-top {
+    font-size: 16px;
+  }
+
+  .text-design-top span {
+    font-size: 20px;
+  }
+
+  .sub-project {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .design-top-1 img {
+    max-width: 150px;
+  }
+
+  .design-top-2 img {
+    max-width: 90px;
+  }
+
+  /* Design Project Cards - HORIZONTAL */
+  .design-project {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    overflow-x: auto;
+    align-items: stretch;
+  }
+
+  .design-proect-1,
+  .design-proect-2,
+  .design-proect-3 {
+    width: calc(33.333% - 7px);
+    min-width: 180px;
+    padding: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Carousel Container */
+  .carousel-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Carousel */
+  .carousel-item {
+    padding: 5px;
+  }
+
+  .carousel-item img {
+    max-width: 100%;
+    height: 280px;
+    object-fit: contain;
+  }
+
+  .prev,
+  .next {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  /* Skill Design Right - Styling */
+  .skill-design-right-top {
+    text-align: center;
+    align-items: center;
+  }
+
+  .projecttext-design p {
+    font-size: 12px;
+  }
+
+  .design-graphic-text {
+    font-size: 50px;
+  }
+
+  .margin-graphic-txt {
+    margin-right: 0;
+  }
+
+  .gallerydes p {
+    font-size: 16px;
+  }
+
+  .gallerydesabout p {
+    font-size: 12px;
+  }
+
+  /* Skill IM Group */
+  .skill-im-group {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  /* Skill Design Right Bottom - Flex */
+  .skill-design-right-bottom {
+    flex: 1;
+  }
+
+  .skill-design-right-bottom-sub {
+    flex: 1;
+  }
+
+  /* Box Tools Design */
+  .box-tools-design {
+    padding: 15px;
+  }
+
+  .box-tools-design p {
+    font-size: 16px;
+  }
+
+  .box-tools-design h4 {
+    margin: 0 0 15px 0;
+  }
+
+  .design-tools {
+    display: flex;
+    flex-direction: row; /* Sejajar horizontal */
+    flex-wrap: wrap; /* Wrap kalau ga muat */
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .design-tools-1,
+  .design-tools-2,
+  .design-tools-3 {
+    display: contents; /* Hilangkan wrapper, biarin logo langsung jadi child */
+  }
+
+  .design-tools img {
+    max-width: 15%; /* Kecilin biar muat 5 logo sejajar */
+    height: auto;
+  }
+
+  /* Box Blue Design */
+  .box-blue-design {
+    align-items: center;
+    padding: 12px;
+    gap: 40px;
+  }
+
+  .text-box-blue {
+    width: auto;
+  }
+
+  .text-box-blue p {
+    font-size: 26px;
+
+  }
+
+  .text-time-box-blue {
+    width: auto;
+    font-size:16px;
+  }
+
+  #text-time-box-blue-sub {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  #text-time-box-blue-sub2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .design-tools img {
+    object-fit: contain;
+  }
+  .design-tools-3 img {
+    max-width: 10%;
+  }
+  .box-tools-design-1 h4 {
+    font-size: 1.5px;
+    margin: 5px 70px 15px 70px;
+  }
+}

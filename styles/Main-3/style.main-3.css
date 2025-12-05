@@ -1,0 +1,367 @@
+/* ========================================================= */
+/* MAIN-3: PROJECT DESIGN CAROUSEL */
+/* ========================================================= */
+
+/* gallerydes */
+/* box-tools-design */
+
+
+:root {
+  --warnabackgrorund-teks: #f5f5f5;
+  --warnafonthitam: #282828;
+  --warnafontbiru: #007bff;
+  --warnanavbar: #ffffff;
+  --warnafontbirutua: #000dff;
+}
+
+.main-3 {
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.main-3-sub {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* ========================================================= */
+/* SKILL DESIGN LEFT - LAYOUT VERTIKAL */
+/* ========================================================= */
+
+.margin-graphic-txt {
+  margin-right: -50px;
+}
+
+.skill-design-right-top {
+  text-align: right;
+}
+
+.skill-design-left {
+  flex: 1;
+  display: block;
+}
+
+.skill-design-left > .design-top {
+  margin-bottom: 30px;
+}
+
+/* ========================================================= */
+/* DESIGN TOP (REELS IG) - DI ATAS */
+/* ========================================================= */
+
+.design-top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.25s ease-in-out;
+  width: 100%;
+}
+
+.design-top:hover {
+  transform: scale(0.98);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-design-top {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+}
+
+.text-design-top span {
+  color: var(--warnafontbirutua);
+  font-size: 25px;
+}
+
+.sub-project {
+  display: flex;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-top-1 img {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.design-top-2 img {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ========================================================= */
+/* 3 CAROUSEL - SEJAJAR HORIZONTAL */
+/* ========================================================= */
+
+.design-proect-1,
+.design-proect-2,
+.design-proect-3 {
+  display: inline-block;
+  width: calc(33.333% - 20px);
+  margin-right: 20px;
+  vertical-align: top;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.25s ease-in-out;
+}
+
+.design-proect-3 {
+  margin-right: 0;
+}
+
+.design-proect-1:hover,
+.design-proect-2:hover,
+.design-proect-3:hover {
+  transform: scale(0.98);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ========================================================= */
+/* CAROUSEL */
+/* ========================================================= */
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+
+
+.carousel-item {
+  border: 1px solid var(--warnafonthitam);
+  border-radius: 15px;
+  padding: 10px;
+  min-width: 100%;
+  flex: 0 0 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  height: 424px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+
+/* ========================================================= */
+/* TOMBOL NAVIGASI */
+/* ========================================================= */
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+  transition: 0.1s ease-in;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 17, 255, 0.8);
+  box-shadow: 0px 1px 5px var(--warnafontbirutua);
+}
+
+/* ========================================================= */
+/* PROJECT TEXT (KANAN) */
+/* ========================================================= */
+
+.skill-design-right {
+  margin: 0px 0px 0px 50px;
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill-design-right-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projecttext-design {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.projecttext-design span {
+  background-color: var(--warnafontbirutua);
+  font-size: 2px;
+  color: var(--warnafontbirutua);
+  padding: 0px 10px;
+}
+
+.projecttext-design p {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--warnafonthitam);
+  margin: 0;
+}
+
+.design-graphic-text {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1;
+  color: var(--warnafonthitam);
+}
+
+
+.design-graphic-text span {
+  color: var(--warnafontbirutua);
+}
+
+.gallerydes {
+  margin: 0px 0px 10px 0px;
+}
+
+.gallerydes p {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--warnafonthitam);
+  margin: 0;
+}
+
+.gallerydesabout p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--warnafonthitam);
+  margin: 0;
+}
+
+/* ================================================= */
+.box-tools-design {
+  padding: 20px;
+  border: 1px solid var(--warnafonthitam);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.design-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.box-tools-design p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box-tools-design h4 {
+  font-size: 2px;
+  color: var(--warnafontbirutua);
+  background-color: var(--warnafontbirutua);
+  margin: 0px 0px 20px 0px;
+}
+
+
+.design-tools-1 img,
+.design-tools-2 img {
+  max-width: 60%;
+}
+
+.design-tools-3 img {
+  max-width: 50%;
+}
+
+.design-tools-1,
+.design-tools-2 {
+  gap: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-im-group {
+  display: flex;
+  gap: 40px;
+}
+
+.text-box-blue p {
+  font-weight: bold;
+  font-size: 30px;
+}
+.text-box-blue span {
+  color: var(--warnafontbirutua);
+}
+
+.box-blue-design {
+  display: flex;
+  gap: 20px;
+  border: 1px solid var(--warnafontbirutua);
+  padding: 15px;
+}
+
+.text-time-box-blue {
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#text-time-box-blue-sub {
+  letter-spacing: 5px;
+}
+
+#text-time-box-blue-sub2 {
+  font-size: 25px;
+}
+

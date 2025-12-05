@@ -1,0 +1,49 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main_2 {
+    padding: 0px 20px;
+  }
+
+  .logoofmain2 {
+    font-size: 13px;
+  }
+  .rectangleabout {
+    width: 25px;
+    height: 3px;
+    margin: 10px 10px 10px 15px;
+  }
+  .grouppicture img {
+    margin: 0px 50px 0px 0px;
+    width: 250px;
+    height: max-content;
+  }
+
+  .aboutme-graphicanddeveloper h3 {
+    font-size: 17px;
+  }
+
+  .aboutme-pixel {
+    font-size: 15px;
+  }
+  .pixel-1 img {
+    width: 140px;
+    height: auto;
+  }
+
+  .garisedu, .educationtext p {
+    background-color: var(--warnafontbirutua);
+    font-size: 8px;
+    color: var(--warnafontbirutua);
+  }
+
+  .educationtext h1 {
+    font-size: 25px;
+  }
+
+  .school-smp-sub h4, .school-smk-sub h4 {
+    font-size: 15px;
+  }
+
+  .school-smp-sub p, .school-smk-sub p {
+    font-size: 12px;
+  }
+}

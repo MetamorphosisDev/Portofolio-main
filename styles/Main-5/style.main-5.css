@@ -1,0 +1,226 @@
+:root {
+  --warnabackgrorund-teks: #f5f5f5;
+  --warnafonthitam: #282828;
+  --warnafontbiru: #007bff;
+  --warnanavbar: #ffffff;
+  --warnafontbirutua: #000dff;
+}
+
+/* ================= MAIN WRAPPER ================= */
+
+.main-5 {
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.main-5-sub {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: auto;
+  gap: 30px;
+  align-items: center; /* <— FIX, biar konten ketengah */
+}
+
+/* ================= TOP TITLE ================= */
+
+.coding-top {
+  display: flex;
+  width: 100%; /* <— FIX dari 1400px agar tidak narik konten kiri */
+  gap: 380px;
+  text-align: center;
+  align-items: center;
+  justify-content: center; /* <— agar teks & elemen tetap seimbang */
+}
+
+.text-coding-project h2 {
+  font-size: 70px;
+}
+.text-coding-project h4 {
+  font-size: calc(70px / 1.6);
+}
+.text-coding-project span {
+  color: var(--warnafontbirutua);
+}
+
+.text-coding-about {
+  padding: 12px 0px;
+  font-size: 12px;
+}
+
+/* ================= SHAPES ================= */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: var(--warnafonthitam);
+  transform: rotate(30deg);
+  filter: blur(10px);
+  transition: transform 0.5s ease-in-out;
+}
+.box:hover {
+  transform: rotate(90deg) scale(1.2);
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 80px solid var(--warnafontbirutua);
+  transform: rotate(125deg);
+  filter: blur(10px);
+  transition: transform 0.6s ease-in-out;
+}
+.triangle-up:hover {
+  transform: rotate(130deg) scale(1.1);
+}
+
+/* ================= PROJECT GRID ================= */
+
+.coding-center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom seperti yang kamu mau */
+  gap: 40px;
+  padding: 40px 60px;
+}
+
+.project-coding-1,
+.project-coding-2,
+.project-coding-3,
+.project-coding-4,
+.project-coding-5,
+.project-coding-6 {
+  background: #fff;
+  border-radius: 14px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.project-coding-5,
+.project-coding-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.text-all-coding {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-coding-5 span,
+.project-coding-6 span {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.project-coding-coming-soon {
+  font-size: 100px;
+  text-align: center;
+  width: 130px;
+  background-color: #d8d8d8;
+  color: #353535;
+  padding: 0px 0px 10px 0px;
+}
+
+/* FRAME GAMBAR */
+.image-coding {
+  background: #efefef;
+  padding: 14px;
+  border-radius: 12px; /* 🔹 jadi seperti frame project referensi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-coding img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover; /* 🔥 gambar tidak melebar aneh */
+}
+
+.project-coding-1:hover,
+.project-coding-2:hover,
+.project-coding-3:hover,
+.project-coding-4:hover {
+  transform: translateY(-6px);
+}
+
+/* =============== nametag ================== */
+.info-language {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.htmlname,
+.cssname,
+.jsname,
+.pythonname,
+.tsname {
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.htmlname {
+  background-color: orangered;
+  color: #f5f5f5;
+}
+
+.cssname {
+  background-color: rgb(0, 68, 255);
+  color: #f5f5f5;
+}
+
+.jsname {
+  background-color: rgb(225, 255, 0);
+  color: #1b1b1b;
+}
+
+.pythonname {
+  background-color: #3776ab;
+  color: white;
+}
+
+.tsname {
+  background-color: #009dff;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+.coding-center > div {
+  transition: 0.3s ease-out;
+}
+
+/* Saat salah satu card di-hover → semua mengecil + gelap */
+.coding-center:hover > div {
+  opacity: 0.3;
+  transform: scale(0.97);
+}
+
+/* Card yang di-hover kembali normal (fokus utama) */
+.coding-center > div:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+.button-repo-code a {
+  font-size: 15px;
+}

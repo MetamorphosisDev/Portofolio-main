@@ -1,0 +1,198 @@
+:root {
+  --warnabackgrorund-teks: #f5f5f5;
+  --warnafonthitam: #282828;
+  --warnafontbiru: #007bff;
+  --warnanavbar: #ffffff;
+  --warnafontbirutua: #000dff;
+}
+
+.main_1 {
+  width: 100%;
+}
+
+.main1_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle-top {
+  background-color: var(--warnafontbirutua);
+  color: var(--warnafontbiru);
+  width: 30px;
+  font-size: 2px;
+  margin: 0px 10px 0px 0px;
+}
+
+.name-of-main_1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.name-im {
+  color: var(--warnafontbirutua);
+  margin-right: 10px;
+}
+
+.name-im h2,
+.name-jonaal h2 {
+  margin: 0;
+}
+
+.studentsmk {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  opacity: 75%;
+}
+
+.studentsmk i {
+  background-color: var(--warnafontbirutua);
+  border-radius: 2px;
+  color: var(--warnabackgrorund-teks);
+}
+
+.studentsmk h6 {
+  margin-right: 3px;
+}
+/* ===================================================================== */
+
+.main_of_1 {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.myphoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kutipatas {
+  color: var(--warnafontbirutua);
+  font-size: 60px;
+  margin-bottom: -20px;
+}
+
+.photo_design,
+.video_web,
+.plus_uiux,
+.photovideoedit {
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.uiux {
+  padding: 4px 18px;
+  display: flex;
+  text-align: center;
+  border-radius: 100px;
+  font-size: 15px;
+}
+
+.plus {
+  padding: 4px 7px;
+  display: flex;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.photography,
+.design,
+.videography,
+.webdev,
+.photovideoeditsub {
+  padding: 4px 10px;
+  display: flex;
+  text-align: center;
+  border-radius: 100px;
+  font-size: 15px;
+}
+
+.design,
+.webdev,
+.uiux,
+.photovideoeditsub {
+  margin: 0px 0px 0px 10px;
+}
+
+.photography,
+.webdev,
+.plus,
+.photovideoeditsub {
+  background-color: var(--warnafonthitam);
+  color: var(--warnabackgrorund-teks);
+}
+
+.design,
+.videography,
+.uiux {
+  color: var(--warnabackgrorund-teks);
+  background-color: #0f19ce;
+}
+
+.send {
+  display: block;
+  all: unset;
+  box-sizing: border-box;
+  padding: 5px 12px;
+  font-weight: bolder;
+  color: var(--warnabackgrorund-teks);
+  background-color: var(--warnafontbirutua);
+  transition: all 0.2s ease-in-out;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 400px;
+}
+
+.send:hover {
+  background-color: var(--warnafonthitam);
+  box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rectanglelog {
+  font-weight: bold;
+  color: var(--warnafontbirutua);
+  font-size: 20px;
+}
+
+.mediasosialtopsub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 30px;
+  border-radius: 100px;
+  background-color: #f0f0f0;
+  margin-top: 365px;
+}
+
+.mediasosialtopsub img {
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.myphotosub img {
+  width: 700px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagramtop,
+.behancetop,
+.githubtop {
+  transition: 0.3s ease-in-out;
+  padding: 3px;
+  border-radius: 10px;
+}
+.instagramtop:hover,
+.behancetop:hover,
+.githubtop:hover {
+  box-shadow: 0px 0px 3px var(--warnafonthitam);
+}
